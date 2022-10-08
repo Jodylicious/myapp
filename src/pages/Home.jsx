@@ -1,5 +1,4 @@
 import React from 'react';
-import Chat from '../components/ChatBot';
 import ChatCard from '../components/ChatCard'
 import Post1 from '../components/Announcements/Post1';
 import Post2 from '../components/Announcements/Post2';

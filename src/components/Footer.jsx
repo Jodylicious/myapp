@@ -1,11 +1,11 @@
-// import React from "react"
+import React from "react"
 
-// const Footer = () => <footer className="footer">
+const Footer = () => <footer className="footer">
 
-//     <div className="footer-copyright">
-//         © 2022 PUPBC ASKOLAR
-//     </div>
+    <div className="footer-copyright">
+        © 2022 PUPBC ASKOLAR
+    </div>
 
-// </footer>
+</footer>
 
-// export default Footer
+export default Footer
