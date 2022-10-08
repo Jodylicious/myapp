@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/myapp/static/css/main.ceb7dd75.css",
-    "main.js": "/myapp/static/js/main.2f2bdc3c.js",
+    "main.js": "/myapp/static/js/main.832412a6.js",
+    "static/media/learningmode.jpg": "/myapp/static/media/learningmode.60a35818e5af52e776cf.jpg",
     "static/media/PIIE.jpg": "/myapp/static/media/PIIE.765ec1cdfb9862aa7b5a.jpg",
     "static/media/YES.png": "/myapp/static/media/YES.dd3cbbc13c098fb0c1a8.png",
     "static/media/hiraya.jpg": "/myapp/static/media/hiraya.c20f9959b993e9ea0026.jpg",
@@ -16,7 +17,6 @@
     "static/media/main.jpg": "/myapp/static/media/main.3ab26c5a05b394a09b9a.jpg",
     "static/media/page1.png": "/myapp/static/media/page1.8d24410603e6f525b7dd.png",
     "static/media/CSC.jpg": "/myapp/static/media/CSC.88788b052b0760132ec5.jpg",
-    "static/media/calendar.jpg": "/myapp/static/media/calendar.fdc2890ce575c0a7a30d.jpg",
     "static/media/page3.png": "/myapp/static/media/page3.3ee2366c7e1194a3c741.png",
     "static/media/page2.png": "/myapp/static/media/page2.9009b444420f1e57cdd6.png",
     "static/media/page4.png": "/myapp/static/media/page4.4702c8714a81574ed190.png",
@@ -24,10 +24,10 @@
     "static/media/page5.png": "/myapp/static/media/page5.275de023bcb465059060.png",
     "index.html": "/myapp/index.html",
     "main.ceb7dd75.css.map": "/myapp/static/css/main.ceb7dd75.css.map",
-    "main.2f2bdc3c.js.map": "/myapp/static/js/main.2f2bdc3c.js.map"
+    "main.832412a6.js.map": "/myapp/static/js/main.832412a6.js.map"
   },
   "entrypoints": [
     "static/css/main.ceb7dd75.css",
-    "static/js/main.2f2bdc3c.js"
+    "static/js/main.832412a6.js"
   ]
 }
