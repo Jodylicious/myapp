@@ -1,38 +1,677 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: url(./assets/images/main.jpg);
+  margin: 0;
+  padding: 0;
+
+}
+
+/* ************ MAIN CONTENT STYLE *************/
+.mainContent {
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #191919;
+  color: white;
+  display: flex;
+  width: 100%;
+
+}
+
+.footer-copyright {
+  padding: 15px;
+  position: relative;
+  display: flex;
+}
+
+/* ************* NAVIGATION********** */
+nav {
+  width: 100%;
+  margin: 0;
+  height: auto;
+  background-color: #191919dd;
+}
+
+.navTitle {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  color: white;
+  background-image: linear-gradient(94.3deg, rgb(16, 17, 20) 10.9%, rgb(36, 37, 39) 87.1%);
+  margin: 0;
+}
+
+.navTitle h4 {
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.navlist {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 5px;
+  margin: 0
+}
+
+.navitems a {
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #f4f0f4;
+  cursor: pointer;
+  padding: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navitems {
+  padding: 10px 15px;
+  width: 100%;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navitems a:hover {
+  background-color: #f4f0f4;
+  color: #191919;
+  border-radius: 5px;
+  font-weight: 550;
+}
+
+.navbtn {
+  right: 10px;
+  top: 10px;
+  display: none;
+  font-size: 20px;
+  position: absolute;
+  padding: 5px;
+  background: none;
+  color: white;
+  border: none;
+
+}
+
+@media screen and (max-width: 500px) {
+  .navlist {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navitems:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+  }
+
+  .navitems {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    margin-right: 0px;
+    padding: 15px 20px;
+  }
+
+  .navbtn {
+    display: block;
+  }
+
+}
+
+/* ******************** SCROLL BUTTON ************************* */
+.top-to-btm {
+  position: relative;
+}
+
+.icon-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+
+.icon-style {
+  background-image: linear-gradient(to right, #ed5565, #d62739);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+}
+
+.icon-style:hover {
+  animation: movebtn 3s ease-in-out infinite;
+  background: #fff;
+  color: #ed5565;
+  border: 2px solid #ed5565;
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(20px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  75% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+@media screen and (max-width: 500px) {
+ .top-to-btm {
+   display: none;
+ }
+}
+/* *********** HOME PAGE*********** */
+.homepage {
+  background-image: linear-gradient(135deg, #FFD3A5 10%, #FD6585 100%);
+  text-align: center;
+  margin-top: 30px 10px 30px 10px;
+  padding: 15px 15px;
+  height: 100vh;
+  width: 100%;
+}
+
+.homepage h4 {
+  padding: 10px;
+  background-color: cornsilk;
+  border-radius: 10px;
+}
+
+.startChat {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.startBtn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 10px;
+  background-color: white;
+width: 250px;
+font-size: 15px;
+margin-top: 10px;
+}
+
+.startBtn:hover {
+  background-color: maroon;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.postHeader {
+  padding: 10px 15px;
+  background-image: linear-gradient(#ffda76, #eec45a);
+  border-bottom: 3px solid maroon;
+  font-weight: 550;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* *************************** HOME ******************************* */
+/* HOME - GET STARTED */
+.chat-btn {
+  background: maroon;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px gray;
+  padding: 12px;
+}
+
+.chat-btn:hover {
+  background-color: mistyrose;
+  border: 2px solid maroon;
+  font-size: 20px;
+  color: maroon;
+}
+
+.chat-btn h3 {
+  color: white;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chat-btn h3:hover {
+  color: maroon;
+  font-weight: 700;
+}
+
+.bot-info {
+  padding: 5px 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.col-home {
+  float: left;
+  width: 50%;
+  position: relative;
+  padding: 10px 12px;
+}
+
+.row-home:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-home {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.chatCard {
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 5px;
+}
+
+
+/* *****************CHAT BOT **************** */
+
+.chatBotHeader {
+  display: flex;
+  position: relative;
+  height: 25px;
+}
+
+.botName {
+  margin-left: 5px;
+  color: white;
+  letter-spacing: 1px;
+  padding: 5px;
+}
+
+.loading {
+  border-radius: 30px;
+}
+
+.refresh,
+.close {
+  color: white;
+  font-weight: 700;
+}
+
+
+/* ********* (AVAILABLE COURSES)********* */
+.courseList ul {
+  padding-left: 20px;
+}
+
+/* *********** CUSTOMIZED CHAT BUBBLE ******************/
+
+.chatTitle {
+  font-weight: 500;
+}
+
+.nobubble {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px lightgray;
+  word-break: break-word;
+}
+
+.nobubble h4 {
+  font-weight: 550;
+
+}
+
+.nobubble p,
+h4,
+li {
+  margin: 0;
+}
+
+.admin h4 {
+  font-weight: 600;
+}
+
+
+/* *********(PUP ORGANIZATION )*********** */
+.orgbubble {
+  background-color: #fffcfc;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.orgSlide {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  overflow-x: scroll;
+  border-radius: 5px;
+}
+
+.orgSlide::-webkit-scrollbar {
+  width: 20px;
+}
+
+.orgSlide .orgPage {
+  padding: 10px;
+  background-color: #fcf6f6;
+  border: 1px solid rgb(192, 192, 192);
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  text-align: center;
+  width: unset;
+}
+
+.orgName {
+  padding: 10px;
+}
+
+
+
+.orgBtn {
+  padding: 10px;
+}
+
+.orgFb {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: maroon;
+}
+
+.orgFb:hover {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: mistyrose;
+}
+
+.orgFb a {
+  text-decoration: none;
+  color: #fcf6f6
+}
+
+.orgFb a:hover {
+  color: #191919;
+  font-weight: 550;
+}
+
+@media screen and (max-width: 600px) {
+  .orgbubble {
+    width: 280px;
   }
+
+  .orgPage {
+    display: inline-block;
+    min-width: 200px;
+    max-width: 90%;
+  }
+
+  .botImage {
+    display: flex;
+    width: 100%;
+  }
+}
+
+
+/************* ANNOUNCEMENTS ************* */
+.pageHeader {
+  font-weight: 700;
+  background-color: #c5283d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+a.moreLink {
+  word-wrap: break-word;
+}
+
+.announcementInfo p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: normal;
+}
+
+/* **************************** EVENTS *************************** */
+.container {
+  padding-top: 20px;
+  width: 80%;
+}
+
+.contactInfo {
+  width: 100%;
+  background-color: cornsilk;
+  padding: 20px 35px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.contactInfo h4 {
+  font-size: 20px;
+  font-weight: 550;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.contactInfo p {
+  font-size: 15px;
+  color: black;
+}
+
+.contactInfo a {
+  color: black;
+  text-decoration: NONE;
+}
+
+.contactInfo a:hover {
+  color: maroon;
+  font-weight: 550;
+}
+
+
+/*************************  COURSE PAGE *************************/
+/* CardComponent Styles */
+.cardsss {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.cardHeader {
+  padding: 12px;
+  text-align: center;
+  font-weight: 550;
+  text-transform: uppercase;
+  background-image: linear-gradient(#ffda76, #eec45a);
+}
+
+/* COURSE CARD */
+.card {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.col-courses {
+  width: 33%;
+  position: relative;
+  /* padding: 15px 30px; */
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.moreInfo,
+.date {
+  font-size: 13px;
+  padding-left: 10px;
+  color: dimgray;
+}
+
+.courseInfo p {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .col-courses {
+    width: 100%;
+  }
+}
+
+
+/* *******************DOWNLOAD APP****************** */
+.logo {
+  width: 150px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.chatCard li {
+  text-align: start;
+}
+
+.appHeader {
+  text-align: center;
+  padding: 15px;
+}
+
+.appDL a {
+  text-decoration: none;
+  color: white;
+}
+
+.appDL {
+  background: maroon;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.gallery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  height: 100px;
+  /* box-shadow: 5px 5px 5px gray; */
+}
+
+th {
+  background-image: linear-gradient(#ffda76, #eec45a);
+  color: black;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  text-align: left;
+}
+
+td h4 {
+  color: maroon;
+  font-weight: 600;
+}
+
+tr {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.app-info ul {
+  text-align: left;
+}
+
+.chipDivider {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+
+
+/* ***************** ABOUT APP ********************* */
+
+.about {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+  background-color: darkgray;
+}
+
+.appInfo h4 {
+  font-weight: 700;
+}
+
+.appInfo p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .divSection {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+.divSection {
+  padding: 20px 25px;
+}
+
+.appLogo {
+  width: 100px;
 }
