@@ -1,35 +1,32 @@
 import * as React from 'react';
 import { Typography, Card, CardContent, CardActions } from '@mui/material';
 import { CCardHeader } from '@coreui/react';
-import { FaMapPin, FaCalendarCheck } from 'react-icons/fa';
+import { FaMapPin} from 'react-icons/fa';
 import ModalImage from "react-modal-image";
-import calendar from './events/calendar.jpg';
+import learningmode from './events/learningmode.jpg';
 
 
 export default function Announcement() {
     return (
         <Card style={{ width: '100' }}>
-            <CCardHeader className='postHeader'><FaCalendarCheck /> 𝗛𝗘𝗔𝗗𝗦 𝗨𝗣 | The university calendar for the ACADEMIC YEAR 2022 - 2023 has been released by the Office of the University Registrar. Please be guided accordingly Isko at Iska. 📣</CCardHeader>
+            <CCardHeader className='postHeader'>Here's everything you need to know about our Hybrid Teaching and Learning Modalities for the upcoming first semester of SY 2022-2023.</CCardHeader>
             <CardContent>
                 <ModalImage
-                    smallSrcSet={(calendar)}
-                    large={(calendar)}
+                    smallSrcSet={(learningmode)}
+                    large={(learningmode)}
                     hideDownload={true}
-                    alt="UCalendar"
+                    alt="Hybrid Teaching and Learning Modality"
                     height="150"
                     width="100%"
                 />
             </CardContent>
             <CardActions disableSpacing >
-                <p className='date'>Posted on: September 17, 2022 at 12:05 PM<FaMapPin /><br /> </p>
+                <p className='date'>Posted on: September 28, 2022 at 4:35 PM<FaMapPin /><br /> </p>
             </CardActions>
             <CardContent>
                 <Typography className="announcementInfo">
-                    <h4>UNIVERSITY CALENDAR FOR ACADEMIC YEAR 2022-2023</h4>
-                    <p>#CSCPUPBC <br />#PUPBC</p>
                     <p>See link for more information.<br />
-                        <a href='https://web.facebook.com/CSCPUPBN/posts/pfbid0UEkNkiSG3xyk4b5Wziuvz4fGZ9pCuXP2RYo9YYueXuK7Hn3QYtRB2UTTT2ThwEn4l?_rdc=1&_rdr'>https://web.facebook.com/CSCPUPBN/posts/pfbid0UEkNkiSG3xyk4b5Wziuvz4fGZ9pCuXP2RYo9YYueXuK7Hn3QYtRB2UTTT2ThwEn4l?_rdc=1&_rdr</a></p>
-
+                        <a href='https://www.facebook.com/ThePUPOfficial/posts/pfbid0bU1Zh7G4TRY7U1CgUQpQKdgpNhTCcuedVzDwjUjihMu7wfVQF6T43sKawkadHvd6l'>https://www.facebook.com/ThePUPOfficial/posts/pfbid0bU1Zh7G4TRY7U1CgUQpQKdgpNhTCcuedVzDwjUjihMu7wfVQF6T43sKawkadHvd6l</a></p>
                 </Typography>
             </CardContent>
         </Card>
