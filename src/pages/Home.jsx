@@ -1,9 +1,9 @@
 import React from 'react';
-// import Chat from '../components/ChatBot';
+import Chat from '../components/ChatBot';
 import ChatCard from '../components/ChatCard'
-// import Post1 from '../components/Announcements/Post1';
-// import Post2 from '../components/Announcements/Post2';
-// import Post3 from '../components/Announcements/Post3';
+import Post1 from '../components/Announcements/Post1';
+import Post2 from '../components/Announcements/Post2';
+import Post3 from '../components/Announcements/Post3';
 
 const Home = () => {
     return (
@@ -14,9 +14,9 @@ const Home = () => {
 
             <div class="col-home">
                 <div className="pageHeader">ANNOUNCEMENTS</div>
-                {/* <Post3 /><br />
+                <Post3 /><br />
                 <Post2 /><br />
-                <Post1 /><br /> */}
+                <Post1 /><br />
             </div>
         </div>
     );
