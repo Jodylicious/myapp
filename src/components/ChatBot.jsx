@@ -29,7 +29,7 @@ const theme = {
 const options = {
   header: (
     <div className='chatBotHeader'>
-      <img src={(bot3)} className="botAvatar" alt="botAvatar"></img> 
+      <img src={(bot3)} className="botAvatar" alt="botAvatar"></img>
       <h4 className='botName'>ASKOLAR</h4>
     </div>
   ),
@@ -235,12 +235,12 @@ const puporg = () => {
           <img src={(IBITS)} width='80px' alt="ibits" ></img>
           <div className='orgName'>Institute of Bachelors in Information Technology Studies (IBITS)</div>
           <div className='orgBtn'>
-            <button className='orgFb'><a href="https://web.facebook.com/iBITS.Official">Visit Page</a></button>
+            <button className='orgFb'><a href="https://web.facebook.com/iBITSPUPBC">Visit Page</a></button>
           </div>
         </div>
 
         <div className='orgPage'>
-        <img src={(ACES)} width='80px' alt='aces'></img>
+          <img src={(ACES)} width='80px' alt='aces'></img>
           <div className='orgName'>Association of Computer Engineering Students (ACES) </div>
           <div className='orgBtn'>
             <button className='orgFb'><a href="https://web.facebook.com/acespupbc">Visit Page</a></button>
@@ -248,7 +248,7 @@ const puporg = () => {
         </div>
 
         <div className='orgPage'>
-        <img src={(PIIE)} width='80px' alt='piie'></img>
+          <img src={(PIIE)} width='80px' alt='piie'></img>
           <div className='orgName'>Philippine Institute of Industrial Engineers (PIIE) </div>
           <div className='orgBtn'>
             <button className='orgFb'><a href="https://web.facebook.com/PIIEPUPBSC">Visit Page</a></button>
@@ -256,7 +256,7 @@ const puporg = () => {
         </div>
 
         <div className='orgPage'>
-        <img src={(JPIA)} width='80px' alt='jpia'></img>
+          <img src={(JPIA)} width='80px' alt='jpia'></img>
           <div className='orgName'> Junior Philippine Institute of Accountants (JPIA)</div>
           <div className='orgBtn'>
             <button className='orgFb'><a href="https://web.facebook.com/PUPJPIABinan"> Visit Page</a></button>
@@ -264,7 +264,7 @@ const puporg = () => {
         </div>
 
         <div className='orgPage'>
-        <img src={(HRSS)} width='80px' alt='hrss'></img>
+          <img src={(HRSS)} width='80px' alt='hrss'></img>
           <div className='orgName'>Human Resource Students Society (HRSS)</div>
           <div className='orgBtn'>
             <button className='orgFb'><a href="https://web.facebook.com/HRSSPUPBC">Visit Page</a> </button>
@@ -272,7 +272,7 @@ const puporg = () => {
         </div>
 
         <div className='orgPage'>
-        <img src={(YES)} width='80px' alt='yes'></img>
+          <img src={(YES)} width='80px' alt='yes'></img>
           <div className='orgName'>Young Educators' Society (YES) </div>
           <div className='orgBtn'>
             <button className='orgFb'><a href="https://web.facebook.com/pupbcyesorg"> Visit Page</a></button>
@@ -280,7 +280,7 @@ const puporg = () => {
         </div>
 
         <div className='orgPage'>
-        <img src={(CSC)} width='80px' alt='csc'></img>
+          <img src={(CSC)} width='80px' alt='csc'></img>
           <div className='orgName'>Central Student Council (CSC) </div>
           <div className='orgBtn'>
             <button className='orgFb'><a href="https://web.facebook.com/CSCPUPBN"> Visit Page</a> </button>
