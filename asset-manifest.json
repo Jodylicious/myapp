@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.ceb7dd75.css",
-    "main.js": "/myapp/static/js/main.df5b6a67.js",
+    "main.css": "/myapp/static/css/main.e87f806d.css",
+    "main.js": "/myapp/static/js/main.526e5222.js",
     "static/media/learningmode.jpg": "/myapp/static/media/learningmode.60a35818e5af52e776cf.jpg",
     "static/media/PIIE.jpg": "/myapp/static/media/PIIE.765ec1cdfb9862aa7b5a.jpg",
     "static/media/YES.png": "/myapp/static/media/YES.dd3cbbc13c098fb0c1a8.png",
@@ -11,7 +11,7 @@
     "static/media/ACES.png": "/myapp/static/media/ACES.bcdda7bc88af405dc37a.png",
     "static/media/HRSS.png": "/myapp/static/media/HRSS.2051581b53316a2c44f5.png",
     "static/media/lister.jpg": "/myapp/static/media/lister.a9b2a58088ca12192975.jpg",
-    "static/media/page6.png": "/myapp/static/media/page6.36694a684b7ef4ba17f8.png",
+    "static/media/page6.png": "/myapp/static/media/page6.fd2cc93b676ec375494f.png",
     "static/media/IBITS.jpg": "/myapp/static/media/IBITS.7313053e569244798c56.jpg",
     "static/media/JPIA.jpg": "/myapp/static/media/JPIA.90f470aa9037fc6567af.jpg",
     "static/media/main.jpg": "/myapp/static/media/main.3ab26c5a05b394a09b9a.jpg",
@@ -23,11 +23,11 @@
     "static/media/bot3.png": "/myapp/static/media/bot3.bb4579c39ed87d9ac53f.png",
     "static/media/page5.png": "/myapp/static/media/page5.275de023bcb465059060.png",
     "index.html": "/myapp/index.html",
-    "main.ceb7dd75.css.map": "/myapp/static/css/main.ceb7dd75.css.map",
-    "main.df5b6a67.js.map": "/myapp/static/js/main.df5b6a67.js.map"
+    "main.e87f806d.css.map": "/myapp/static/css/main.e87f806d.css.map",
+    "main.526e5222.js.map": "/myapp/static/js/main.526e5222.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceb7dd75.css",
-    "static/js/main.df5b6a67.js"
+    "static/css/main.e87f806d.css",
+    "static/js/main.526e5222.js"
   ]
 }
