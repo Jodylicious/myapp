@@ -3,7 +3,6 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import bot3 from '../assets/images/bot3.png';
-import DividerText from '../components/DividerText';
 import Gallery from '../components/AppGallery';
 
 
@@ -62,12 +61,6 @@ const AppDownload = () => {
 
                                         </ul>
                                     </tr>
-                                    <tr>
-                                        <th>APP SCREENSHOTS</th>
-                                    </tr>
-                                    <tr>
-                                        <Gallery />
-                                    </tr>
 
                                 </table>
                             </Card.Body>
@@ -79,7 +72,14 @@ const AppDownload = () => {
                 <div class="col-home">
                     <div className='chatCard'>
                         <Card style={{ width: '100%' }} className='divSection'>
-                            <DividerText />
+                        <table>
+                            <tr>
+                                <th>APP SCREENSHOTS</th>
+                            </tr>
+                            <tr>
+                                <Gallery />
+                            </tr>
+                        </table>
                         </Card>
                     </div>
                 </div>

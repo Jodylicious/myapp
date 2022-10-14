@@ -13,9 +13,11 @@ const Home = () => {
 
             <div class="col-home">
                 <div className="pageHeader">ANNOUNCEMENTS</div>
+                <div className='announce'>
                 <Post3 /><br />
                 <Post2 /><br />
                 <Post1 /><br />
+                </div>
             </div>
         </div>
     );

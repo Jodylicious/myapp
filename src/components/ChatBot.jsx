@@ -57,7 +57,7 @@ const options = {
     <div className='homepage' >
       <h4>" Chatbots are useful because they make you feel less silly when you ask important questions. Talking to someone can be scary at times. Speaking with a chatbot makes this much easier! "</h4>
       <div className='startChat'>
-        <img src={(bot3)} className='botImage' width='400px' alt="botAvatar" ></img>
+        <img src={(bot3)} className='botImage' width='350px' alt="botAvatar" ></img>
       </div>
       <Link to="/home">
         <button className='startBtn'>GO TO HOME <ExitToApp /></button>

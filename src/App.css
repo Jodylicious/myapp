@@ -197,12 +197,12 @@ nav {
  }
 }
 /* *********** HOME PAGE*********** */
+
 .homepage {
   background-image: linear-gradient(135deg, #FFD3A5 10%, #FD6585 100%);
   text-align: center;
   margin-top: 30px 10px 30px 10px;
   padding: 15px 15px;
-  height: 100vh;
   width: 100%;
 }
 
@@ -446,6 +446,10 @@ li {
 
 
 /************* ANNOUNCEMENTS ************* */
+.announce{
+  overflow-y: scroll;
+  height: 65vh;
+}
 .pageHeader {
   font-weight: 700;
   background-color: #c5283d;
@@ -467,13 +471,9 @@ a.moreLink {
 }
 
 /* **************************** EVENTS *************************** */
-.container {
-  padding-top: 20px;
-  width: 80%;
-}
 
 .contactInfo {
-  width: 100%;
+  width: 80%;
   background-color: cornsilk;
   padding: 20px 35px;
   border: 1px solid lightgrey;
@@ -642,8 +642,6 @@ tr {
 /* ***************** ABOUT APP ********************* */
 
 .about {
-  font-size: 16px;
-  font-weight: 700;
   padding: 10px;
   text-align: center;
   border: 2px solid black;
@@ -655,7 +653,7 @@ tr {
 }
 
 .appInfo p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 600px) {
@@ -669,7 +667,7 @@ tr {
 }
 
 .divSection {
-  padding: 20px 25px;
+  padding: 15px 20px;
 }
 
 .appLogo {

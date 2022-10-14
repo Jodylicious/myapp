@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 const About = () => {
     return (
-        <div className='container'>
+        <div>
             <div className="pageHeader">ABOUT THIS APP</div>
             <Card style={{ width: '100%' }} className='divSection'>
                 <DividerText />

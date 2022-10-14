@@ -8,8 +8,10 @@ const Events = () => {
         <div classname="row-home" >
             <div class="col-home">
             <div className="pageHeader">EVENTS</div>
+                <div className='announce'>
                 <div class="card"> <Event1 /></div>
                 <div class="card"> <Event2 /></div>
+                </div>
             </div>
             <div class="col-home">
                 <div class="contactInfo">
