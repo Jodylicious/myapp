@@ -29,8 +29,7 @@ const theme = {
 const options = {
   header: (
     <div className='chatBotHeader'>
-      <img src={(bot3)} className="botAvatar" alt="botAvatar"></img>
-      <h4 className='botName'>ASKOLAR</h4>
+      <h4 className='botName'>Chat</h4>
     </div>
   ),
   hidden: false,

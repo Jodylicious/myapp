@@ -115,10 +115,11 @@ nav {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .navlist {
     flex-direction: column;
     height: auto;
+    background-color: #373737;
   }
 
   .navitems:nth-child(1) {
@@ -191,7 +192,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
  .top-to-btm {
    display: none;
  }
@@ -292,6 +293,7 @@ margin-top: 10px;
   .col-home {
     width: 100%;
   }
+
 }
 
 .chatCard {
@@ -308,11 +310,22 @@ margin-top: 10px;
   height: 25px;
 }
 
+@media screen and (max-width: 600px) {
+  .chatBotHeader {
+    width: 100%;
+  }
+  .botName {
+    color: white;
+    letter-spacing: 1px;
+    padding: 5px;
+  }
+}
+
 .botName {
-  margin-left: 5px;
   color: white;
   letter-spacing: 1px;
-  padding: 5px;
+  padding: 4px;
+  font-size: 18px;
 }
 
 .loading {
@@ -473,12 +486,10 @@ a.moreLink {
 /* **************************** EVENTS *************************** */
 
 .contactInfo {
-  width: 80%;
   background-color: cornsilk;
   padding: 20px 35px;
   border: 1px solid lightgrey;
   border-radius: 5px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   box-shadow: 5px 5px 5px gray;
 }
 
@@ -486,7 +497,6 @@ a.moreLink {
   font-size: 20px;
   font-weight: 550;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif
 }
 
 .contactInfo p {
@@ -506,6 +516,15 @@ a.moreLink {
 
 
 /*************************  COURSE PAGE *************************/
+/* Under Construction */
+.maintenance{
+  padding: 20px;
+  background-color: maroon;
+  color: white;
+  border: 1px solid maroon;
+  border-radius: 5px;
+  text-align: center;
+}
 /* CardComponent Styles */
 .cardsss {
   box-shadow: 5px 5px 5px gray;
