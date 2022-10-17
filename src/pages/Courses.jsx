@@ -9,7 +9,7 @@ import BSA from '../components/CourseDetails/BSA';
 import BSBA from '../components/CourseDetails/BSBA';
 import DICT from '../components/CourseDetails/DICT';
 import DCET from '../components/CourseDetails/DCET';
-import BSPSY from '../components/CourseDetails/BSPSY';
+
 
 const Courses = () => {
     return (
@@ -57,9 +57,6 @@ const Courses = () => {
                     <div class="card"> <BSBA /></div>
                 </div>
 
-                <div class="col-courses">
-                    <div class="card"> <BSPSY /></div>
-                </div>
 
             </div>
         </div>
