@@ -26,7 +26,6 @@ export default function Announcement() {
         <div className='chatCard'>
             <Card style={{ width: '100%' }}>
                 <CCardHeader className='postHeader'>𝐏𝐔𝐏𝟏𝟑𝐂 | 2 WEEKS TO GO ! 🎉</CCardHeader>
-                {/* This is the announcement contents / images / files */}
                 <CardContent>
                     <ModalImage
                         smallSrcSet={(pup13c)}
@@ -38,7 +37,6 @@ export default function Announcement() {
                     />
                 </CardContent>
                 <CardActions disableSpacing >
-                    {/* This is the announcement contents / images / files */}
                     <p className='date'>Posted on: August 28, 2022 at 1:32 PM <FaMapPin /><br /> </p>
                     <ExpandMore
                         expand={expanded}
@@ -48,7 +46,6 @@ export default function Announcement() {
                         <ExpandMoreIcon />
                     </ExpandMore>
                 </CardActions>
-                {/* This is other information section (collapsed) */}
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
                         <Typography className="announcementInfo">
@@ -61,7 +58,6 @@ export default function Announcement() {
                                     #MATATAGmula2009<br />
                                     #MulaSayoParaSaBAYAN<br />
                                     #PUP13C</p>
-
                                 <p>Or see more information below:
                                     <br /><a className='moreLink' href="https://web.facebook.com/CSCPUPBN">https://web.facebook.com/CSCPUPBN</a>
                                 </p>
@@ -69,7 +65,6 @@ export default function Announcement() {
                         </Typography>
                     </CardContent>
                 </Collapse>
-
             </Card>
         </div>
     );

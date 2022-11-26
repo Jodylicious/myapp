@@ -76,7 +76,5 @@ export default function DividerText() {
                 </Divider>
                 {disclamer}
             </div>
-
     );
-
 }

@@ -8,7 +8,12 @@ import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { PieChart, Pie, Tooltip, Legend, Cell } from 'recharts';
 
+const bspsy = [
+    { name: "BSPSY 1", value: 31 },
+]
+const color = ["#8884d8", "#82ca9d", "#FFBB28", "#FF8042", "#AF19FF"];
 
 const ExpandMore = styled((props) => {
     const { expand, ...other } = props;
@@ -23,6 +28,7 @@ const ExpandMore = styled((props) => {
 
 export default function CourseCard() {
     const [expanded, setExpanded] = React.useState(false);
+
     const handleExpandClick = () => {
         setExpanded(!expanded);
     };
@@ -61,11 +67,32 @@ export default function CourseCard() {
                 </CardActions>
 
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
-                    <CardContent>
+                <CardContent>
                         <Typography className="courseInfo">
-                            <div className='maintenance'>
-                            <h4>Sorry this course page is under construction. We apologize for the inconvenience.</h4>
-                            </div>
+                            <p>Organization:</p>
+                            <p><h5>NO INFORMATION YET</h5></p>
+                            <p>Course Adviser:</p>
+                            <p><h5>NO INFORMATION YET</h5></p>
+                            <p>Current Course Population:</p>
+
+                            {/* This is the pie-chart of course populations */}
+                            <PieChart width={450} height={350}>
+                                <Legend layout="vertical" verticalAlign="bottom" align="middle" />
+                                <Pie
+                                    dataKey="value"
+                                    isAnimationActive={true}
+                                    data={bspsy}
+                                    cx="40%"
+                                    cy="35%"
+                                    outerRadius={80}
+                                    fill="#a1051d"
+                                    label
+                                >
+                                    {bspsy.map((entry, index) => <Cell fill={color[index % color.length]} />)}
+                                </Pie>
+
+                                <Tooltip />
+                            </PieChart>
                         </Typography>
                     </CardContent>
                 </Collapse>

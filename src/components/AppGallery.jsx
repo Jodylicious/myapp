@@ -11,8 +11,8 @@ const Gallery = () => {
     return (
         <div className='gallery'>
 
+            {/* APP SCREENSHOTS */}
             <CCarousel controls indicators dark>
-
                 <CCarouselItem>
                     <CImage className="d-block w-100" src={(page1)} alt="slide 1" />
                 </CCarouselItem>
@@ -31,10 +31,7 @@ const Gallery = () => {
                 <CCarouselItem>
                     <CImage className="d-block w-100" src={(page6)} alt="slide 6" />
                 </CCarouselItem>
-
             </CCarousel>
-
-
         </div>
     );
 }

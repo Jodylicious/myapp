@@ -76,7 +76,6 @@ export default function Announcement() {
                     </Typography>
                 </CardContent>
             </Collapse>
-
         </Card>
     );
 }

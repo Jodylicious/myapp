@@ -8,7 +8,6 @@ import About from './pages/About.jsx';
 import Courses from './pages/Courses.jsx';
 import Events from './pages/Events.jsx';
 import Download from './pages/Download.jsx';
-import ScrollButton from './components/ScrollButton';
 import Footer from './components/Footer';
 import ChatBot from './components/ChatBot';
 
@@ -29,7 +28,6 @@ function App() {
     }
   }, [])
   return (
-
       <>
       <div className='navBar'>
         <div className='navTitle'>
@@ -58,6 +56,7 @@ function App() {
           <button onClick={toggleNav} className="navbtn"><FaBars /></button>
         </nav>
 
+        {/* NAVIGATION ROUTING FOR EVERY PAGES */}
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
@@ -67,7 +66,6 @@ function App() {
           <Route exact path="/download" element={<Download />} />
           <Route exact path="/chatbot" element={<ChatBot />} />
         </Routes>
-        <ScrollButton />
         <Footer/>
       </div>
       </>

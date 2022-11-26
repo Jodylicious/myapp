@@ -4,10 +4,11 @@ import Card from 'react-bootstrap/Card';
 
 const Download = () => {
     return (
+        
+        // APP DOWNLOAD COMPONENT
         <div>
             <Card style={{ width: '100%' }}/>
-                <AppDownload />  
-                
+                <AppDownload />    
         </div>
     );
 };

@@ -5,7 +5,6 @@ import { FaMapPin} from 'react-icons/fa';
 import ModalImage from "react-modal-image";
 import learningmode from './events/learningmode.jpg';
 
-
 export default function Announcement() {
     return (
         <Card style={{ width: '100' }}>

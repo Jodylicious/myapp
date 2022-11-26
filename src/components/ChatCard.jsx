@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
-function BasicExample() {
+function ChatCard() {
     return (
         <div className='chatCard'>
             <Card style={{ width: '100%' }}>
@@ -24,4 +24,4 @@ function BasicExample() {
         </div>
     );
 }
-export default BasicExample;
+export default ChatCard;

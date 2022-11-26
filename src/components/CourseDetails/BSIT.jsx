@@ -16,8 +16,8 @@ const bsit = [
     { name: "BSIT 2", value: 31 },
     { name: "BSIT 3", value: 51 },
     { name: "BSIT 4", value: 52 },
-
 ]
+
 const color = ["#8884d8", "#82ca9d", "#FFBB28", "#FF8042", "#AF19FF"];
 
 const ExpandMore = styled((props) => {

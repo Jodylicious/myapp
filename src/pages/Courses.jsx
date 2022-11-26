@@ -14,7 +14,7 @@ import BSPSY from '../components/CourseDetails/BSPSY';
 const Courses = () => {
     return (
         <div >
-
+            {/* COURSES */}
             <div class="row">
                 <header><h4 className='pageHeader'>BACHELOR AND DIPLOMA COURSES</h4> </header>
                 <div class="col-courses">
@@ -60,7 +60,6 @@ const Courses = () => {
                 <div class="col-courses">
                     <div class="card"> <BSPSY /></div>
                 </div>
-
 
             </div>
         </div>
