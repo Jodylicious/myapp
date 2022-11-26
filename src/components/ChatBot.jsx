@@ -43,7 +43,7 @@ const options = {
   messageDelay: 600,
   loadingComponent: (
     <div>
-      <img className='loading' src="https://thriveldn.co.uk/wp-content/themes/thrive/resources/loading.gif" alt='loading' width="75px" ></img>
+      <img className='loading' src="https://cdn.dribbble.com/users/55974/screenshots/3967147/dribbble_still_2x.gif?compress=1&resize=400x300" alt='loading' width="75px" ></img>
     </div>
   ),
   refreshComponent: (
