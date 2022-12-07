@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/myapp/static/css/main.10fc8fd2.css",
-    "main.js": "/myapp/static/js/main.3df889b2.js",
+    "main.js": "/myapp/static/js/main.c0413382.js",
     "static/media/campus.png": "/myapp/static/media/campus.173e4455706cfe3c6a4a.png",
     "static/media/learningmode.jpg": "/myapp/static/media/learningmode.60a35818e5af52e776cf.jpg",
     "static/media/PIIE.jpg": "/myapp/static/media/PIIE.765ec1cdfb9862aa7b5a.jpg",
+    "static/media/dresscodepolicy.jpg": "/myapp/static/media/dresscodepolicy.46a434a331e39fdac9fa.jpg",
     "static/media/YES.png": "/myapp/static/media/YES.dd3cbbc13c098fb0c1a8.png",
     "static/media/hiraya.jpg": "/myapp/static/media/hiraya.c20f9959b993e9ea0026.jpg",
     "static/media/planting.jpg": "/myapp/static/media/planting.37f670eaae5576e8558b.jpg",
@@ -17,6 +18,7 @@
     "static/media/graduates.jpg": "/myapp/static/media/graduates.a5a7fec5edbc18f27674.jpg",
     "static/media/IBITS.jpg": "/myapp/static/media/IBITS.7313053e569244798c56.jpg",
     "static/media/JPIA.jpg": "/myapp/static/media/JPIA.90f470aa9037fc6567af.jpg",
+    "static/media/cscofficers.jpg": "/myapp/static/media/cscofficers.a39151c4294c75523e57.jpg",
     "static/media/main.jpg": "/myapp/static/media/main.3ab26c5a05b394a09b9a.jpg",
     "static/media/CSC.jpg": "/myapp/static/media/CSC.88788b052b0760132ec5.jpg",
     "static/media/OSAS.jpg": "/myapp/static/media/OSAS.8eabcc381e54a0952f80.jpg",
@@ -28,10 +30,10 @@
     "static/media/ISKOM.jpg": "/myapp/static/media/ISKOM.8b84c420d615827655ea.jpg",
     "index.html": "/myapp/index.html",
     "main.10fc8fd2.css.map": "/myapp/static/css/main.10fc8fd2.css.map",
-    "main.3df889b2.js.map": "/myapp/static/js/main.3df889b2.js.map"
+    "main.c0413382.js.map": "/myapp/static/js/main.c0413382.js.map"
   },
   "entrypoints": [
     "static/css/main.10fc8fd2.css",
-    "static/js/main.3df889b2.js"
+    "static/js/main.c0413382.js"
   ]
 }
