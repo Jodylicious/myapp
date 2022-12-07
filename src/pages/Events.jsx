@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGooglePlusSquare, FaInstagramSquare, FaFacebookSquare, FaLocationArrow, FaGlobe, FaBook, FaEnvelope } from 'react-icons/fa';
 import Event1 from '../components/Announcements/Event1';
 import Event2 from '../components/Announcements/Event2';
+import Event3 from '../components/Announcements/Event3';
 
 const Events = () => {
     return (
@@ -10,8 +11,9 @@ const Events = () => {
             <div class="col-home">
                 <div className="pageHeader">EVENTS</div>
                 <div className='announce'>
-                    <div class="card"> <Event1 /></div>
+                    <div class="card"> <Event3 /></div>
                     <div class="card"> <Event2 /></div>
+                    <div class="card"> <Event1 /></div>
                 </div>
             </div>
 
