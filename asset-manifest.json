@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myapp/static/css/main.10fc8fd2.css",
-    "main.js": "/myapp/static/js/main.c0413382.js",
+    "main.js": "/myapp/static/js/main.07c66301.js",
     "static/media/campus.png": "/myapp/static/media/campus.173e4455706cfe3c6a4a.png",
     "static/media/learningmode.jpg": "/myapp/static/media/learningmode.60a35818e5af52e776cf.jpg",
     "static/media/PIIE.jpg": "/myapp/static/media/PIIE.765ec1cdfb9862aa7b5a.jpg",
@@ -16,6 +16,7 @@
     "static/media/ACES.png": "/myapp/static/media/ACES.bcdda7bc88af405dc37a.png",
     "static/media/HRSS.png": "/myapp/static/media/HRSS.2051581b53316a2c44f5.png",
     "static/media/graduates.jpg": "/myapp/static/media/graduates.a5a7fec5edbc18f27674.jpg",
+    "static/media/yearend.jpg": "/myapp/static/media/yearend.d090629e4b3761ed6607.jpg",
     "static/media/IBITS.jpg": "/myapp/static/media/IBITS.7313053e569244798c56.jpg",
     "static/media/JPIA.jpg": "/myapp/static/media/JPIA.90f470aa9037fc6567af.jpg",
     "static/media/cscofficers.jpg": "/myapp/static/media/cscofficers.a39151c4294c75523e57.jpg",
@@ -30,10 +31,10 @@
     "static/media/ISKOM.jpg": "/myapp/static/media/ISKOM.8b84c420d615827655ea.jpg",
     "index.html": "/myapp/index.html",
     "main.10fc8fd2.css.map": "/myapp/static/css/main.10fc8fd2.css.map",
-    "main.c0413382.js.map": "/myapp/static/js/main.c0413382.js.map"
+    "main.07c66301.js.map": "/myapp/static/js/main.07c66301.js.map"
   },
   "entrypoints": [
     "static/css/main.10fc8fd2.css",
-    "static/js/main.c0413382.js"
+    "static/js/main.07c66301.js"
   ]
 }
