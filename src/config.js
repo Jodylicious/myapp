@@ -21,7 +21,7 @@ import Header from "./widgets/Avatar/Header";
 import Help from "./widgets/Options/GeneralOptions/Help";
 
 
-const botName = "Askolar";
+const botName = "ASKolar";
 const config = {
   botName: botName,
   customComponents: {

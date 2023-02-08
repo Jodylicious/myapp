@@ -77,7 +77,7 @@ class App extends Component {
       <>
         <div className='navBar'>
           <div className='navTitle'>
-            <h4>ASKOLAR : PUPBC CHATBOT</h4>
+            <h4>ASKolar : PUPBC CHATBOT</h4>
           </div>
           <nav>
               <ul className="navlist">

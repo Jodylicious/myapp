@@ -7,7 +7,7 @@ function Header() {
     <div className="react-chatbot-kit-chat-header">
 
       <div className="react-chatbot-kit-chat-header-name">
-        ASKOLAR
+      ASKolar
       </div>
 
       <div className="react-chatbot-kit-chat-header-btn">

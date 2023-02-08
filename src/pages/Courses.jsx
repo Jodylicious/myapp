@@ -17,6 +17,7 @@ const Courses = () => {
             {/* COURSES */}
             <div class="row">
                 <header><h4 className='pageHeader'>BACHELOR AND DIPLOMA COURSES</h4> </header>
+                <p><h4> As of October 2022 - January 2023: </h4></p>
                 <div class="col-courses">
                     <div class="card"> <BSIT /></div>
                 </div>
