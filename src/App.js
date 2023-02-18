@@ -2,11 +2,10 @@ import React, { Component } from 'react'
 import './App.css';
 import LogRocket from 'logrocket';
 import { Link, Routes, Route } from 'react-router-dom';
-import { FaHome, FaDownload, FaCalendarCheck, FaBookOpen, FaInfoCircle } from 'react-icons/fa';
+import { FaHome, FaDownload, FaBookOpen, FaInfoCircle } from 'react-icons/fa';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Courses from './pages/Courses.jsx';
-import Events from './pages/Events.jsx';
 import Download from './pages/Download.jsx';
 import Footer from './components/Footer';
 import ChatApp from './components/ChatApp';
@@ -85,9 +84,6 @@ class App extends Component {
                   <Link to="/"><FaHome /> Home</Link>
                 </li>
                 <li className="navitems">
-                  <Link to="/events"><FaCalendarCheck /> Events</Link>
-                </li>
-                <li className="navitems">
                   <Link to="/courses"><FaBookOpen /> Courses</Link>
                 </li>
                 <li className="navitems">
@@ -104,7 +100,6 @@ class App extends Component {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/home" element={<Home />} />
             <Route exact path="/about" element={<About />} />
-            <Route exact path="/events" element={<Events />} />
             <Route exact path="/courses" element={<Courses />} />
             <Route exact path="/download" element={<Download />} />
             <Route exact path="/chatbot" element={<ChatApp />} />

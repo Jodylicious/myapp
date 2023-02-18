@@ -38,7 +38,7 @@ const config = {
   },
   initialMessages: [
     createChatBotMessage(
-      "Hi there! I'm Askolar, your virtual assistant and I am here to assists you. Please choose one of the options below or you can use '.help' command.",
+      "Hi PUPians! What can I help you? You can use '.help' command.",
       {
         widget: "generalOptions",
       }

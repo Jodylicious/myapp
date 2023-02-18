@@ -196,10 +196,9 @@ class ActionProvider {
 
   handleDefault = () => {
     const message = this.createChatBotMessage(
-      "Sorry, I don't quite understand that. Maybe I can help you with this.",
+      "Sorry, I don't quite understand that. Maybe you can use '.help' command.",
       {
         withAvatar: true,
-        widget: "generalOptions",
       }
     );
     this.addMessageToBotState(message);

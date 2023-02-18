@@ -480,6 +480,7 @@ li {
   font-size: 20px;
   box-shadow: 5px 5px 5px gray;
   padding: 12px;
+  width: 100%;
 }
 
 .chat-btn:hover {

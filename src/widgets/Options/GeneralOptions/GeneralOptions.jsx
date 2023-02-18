@@ -18,11 +18,11 @@ const GeneralOptions = (props) => {
       handler: props.actionProvider.documents,
       id: 3,
     },
-    {
-      name: "Payments",
-      handler: props.actionProvider.payments,
-      id: 4,
-    },
+    // {
+    //   name: "Payments",
+    //   handler: props.actionProvider.payments,
+    //   id: 4,
+    // },
     {
       name: "Campus Information",
       handler: props.actionProvider.campusInfo,
@@ -38,16 +38,16 @@ const GeneralOptions = (props) => {
       handler: props.actionProvider.appointment,
       id: 7,
     },
-    {
-      name: "Other Concern",
-      handler: props.actionProvider.concern,
-      id: 8,
-    },
-    {
-      name: "Disclaimer",
-      handler: props.actionProvider.disclaimer,
-      id: 9,
-    },
+    // {
+    //   name: "Other Concern",
+    //   handler: props.actionProvider.concern,
+    //   id: 8,
+    // },
+    // {
+    //   name: "Disclaimer",
+    //   handler: props.actionProvider.disclaimer,
+    //   id: 9,
+    // },
   ];
 
   return <Options options={options} />;

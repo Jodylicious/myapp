@@ -135,7 +135,7 @@ class MessageParser {
 
     if (
       lowerCase.includes("how can i request documents") ||
-      lowerCase.includes("documents") ||
+      lowerCase.includes("document") ||
       lowerCase.includes("certificate") ||
       lowerCase.includes("how can i get certificates") ||
       lowerCase.includes("how to issue certificate of registration")) {
@@ -184,7 +184,7 @@ class MessageParser {
       lowerCase.includes("pupbc admin") ||
       lowerCase.includes("administrators") ||
       lowerCase.includes("pupbc administators") ||
-      lowerCase.includes("admins") ||
+      lowerCase.includes("admin") ||
       lowerCase.includes("who are the administrators in pupbc") ||
       lowerCase.includes("school admins in pupbc")) {
       return this.actionProvider.admin();
