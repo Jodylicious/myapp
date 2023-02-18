@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.43dded52.css",
-    "main.js": "/myapp/static/js/main.4fcbab1d.js",
+    "main.css": "/myapp/static/css/main.5c3e3911.css",
+    "main.js": "/myapp/static/js/main.040fac49.js",
     "static/media/campus.png": "/myapp/static/media/campus.173e4455706cfe3c6a4a.png",
     "static/media/learningmode.jpg": "/myapp/static/media/learningmode.60a35818e5af52e776cf.jpg",
     "static/media/PIIE.jpg": "/myapp/static/media/PIIE.765ec1cdfb9862aa7b5a.jpg",
@@ -31,11 +31,11 @@
     "static/media/page4.png": "/myapp/static/media/page4.212bafd11c2d7c112374.png",
     "static/media/ISKOM.jpg": "/myapp/static/media/ISKOM.8b84c420d615827655ea.jpg",
     "index.html": "/myapp/index.html",
-    "main.43dded52.css.map": "/myapp/static/css/main.43dded52.css.map",
-    "main.4fcbab1d.js.map": "/myapp/static/js/main.4fcbab1d.js.map"
+    "main.5c3e3911.css.map": "/myapp/static/css/main.5c3e3911.css.map",
+    "main.040fac49.js.map": "/myapp/static/js/main.040fac49.js.map"
   },
   "entrypoints": [
-    "static/css/main.43dded52.css",
-    "static/js/main.4fcbab1d.js"
+    "static/css/main.5c3e3911.css",
+    "static/js/main.040fac49.js"
   ]
 }
