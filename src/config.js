@@ -38,7 +38,7 @@ const config = {
   },
   initialMessages: [
     createChatBotMessage(
-      "Hi PUPians! What can I help you? You can use '.help' command.",
+      "Hi there👋 I'm ASKolar and I am here to help you 😃. Please ask me anything or you can use '.help' command.",
       {
         widget: "generalOptions",
       }
