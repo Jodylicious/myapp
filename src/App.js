@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import './App.css';
 import LogRocket from 'logrocket';
 import { Link, Routes, Route } from 'react-router-dom';
-import { FaHome, FaDownload, FaBookOpen, FaInfoCircle } from 'react-icons/fa';
+import { FaHome, FaDownload, FaBookOpen, FaInfoCircle, FaCalendarCheck } from 'react-icons/fa';
 import Home from './pages/Home.jsx';
+import Event from './pages/Event';
 import About from './pages/About.jsx';
 import Courses from './pages/Courses.jsx';
 import Download from './pages/Download.jsx';
@@ -82,6 +83,9 @@ class App extends Component {
               <ul className="navlist">
                 <li className="navitems">
                   <Link to="/"><FaHome /> Home</Link>
+              </li>
+              <li className="navitems">
+                  <Link to="/events"><FaCalendarCheck /> Events</Link>
                 </li>
                 <li className="navitems">
                   <Link to="/courses"><FaBookOpen /> Courses</Link>
@@ -95,10 +99,12 @@ class App extends Component {
               </ul>
           </nav>
 
+
           {/* NAVIGATION ROUTING FOR EVERY PAGES */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/home" element={<Home />} />
+            <Route exact path="/events" element={<Event />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/courses" element={<Courses />} />
             <Route exact path="/download" element={<Download />} />

@@ -136,6 +136,61 @@ nav {
 }
 
 /* *********** HOME PAGE*********** */
+.div-section{
+  background: url("/src/assets/images/campus.png");
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 80vh;
+}
+.hero {
+
+  background-color: #00000086;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+  padding: 70px 90px;
+  text-align: center;
+  height: 80vh;
+}
+.hero h2 {
+  font-size: 35px; 
+  padding-top: 100px;
+}
+.hero p {
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 20px; 
+}
+
+.col-chat {
+  float: left;
+  width: 33.33%;
+}
+.row-chat{
+  margin-top: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+}
+ 
+@media screen and (max-width: 600px) {
+  .col-chat {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .hero{
+    height: 100vh
+  }
+  .div-section{
+    height: auto;
+  }
+
+}
 
 /* react-kit */
 .react-chatbot-kit-user-chat-message-container {
@@ -480,7 +535,7 @@ li {
   font-size: 20px;
   box-shadow: 5px 5px 5px gray;
   padding: 12px;
-  width: 100%;
+  width: 50%;
 }
 
 .chat-btn:hover {
