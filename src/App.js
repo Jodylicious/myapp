@@ -85,7 +85,7 @@ class App extends Component {
                   <Link to="/"><FaHome /> Home</Link>
               </li>
               <li className="navitems">
-                  <Link to="/events"><FaCalendarCheck /> Events</Link>
+                  <Link to="/events"><FaCalendarCheck /> Announcements</Link>
                 </li>
                 <li className="navitems">
                   <Link to="/courses"><FaBookOpen /> Courses</Link>
